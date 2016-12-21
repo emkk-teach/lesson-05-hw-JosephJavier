@@ -5,6 +5,7 @@ $(document).ready(function(){
 	// Execute following conditional statements once the 
 	//"Update" button is clicked
 	$("#submit-btn").click(function(){
+		// It would be easier and more efficient to put $('#city-type').val() into a variable because you use it so frequently
 
 		// Change the background image of New York City if 
 		//input is 1 of 3 possible choices
